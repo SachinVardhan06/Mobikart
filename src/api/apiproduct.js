@@ -26,7 +26,7 @@ export async function getSingleProduct(token, { product_id }) {
         console.log(error);
         return null;
     }
-    return data;
+    return product_id;
 }
 
 export async function updateproductstaus(token, { product_id },instock) {
